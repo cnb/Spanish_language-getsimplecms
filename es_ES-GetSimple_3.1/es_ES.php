@@ -5,9 +5,9 @@
 * @Package:			GetSimple
 * @Subject:			Spanish (Spain) language file
 * @Date:				19 Feb 2011
-* @Revision:		19 Feb 2011
-* @Version:			GetSimple 3.1 Beta / bleeding edge
-* @Translation Version:		1.4.0
+* @Revision:		10 Mar 2011
+* @Version:			GetSimple 3.1
+* @Translation Version:		1.4.2
 * @Status:			Final
 * @Traductors:	Isaac Robles García - David Casas Martín - José Blanco - Carlos Navarro
 *
@@ -22,7 +22,6 @@
 * Cambios varios y ampliación para GetSimple 3.1: Carlos Navarro
 *
 ****************************************************/
-
 $i18n = array(
     'PHPVER_ERROR' => "<b>No se puede continuar:</b> Se requiere PHP 5.1.3 o superior "
   , 'SIMPLEXML_ERROR' => "<b>No se puede continuar:</b> <em>SimpleXML</em> no está instalado"
@@ -167,7 +166,7 @@ $i18n = array(
   , 'CONFIRM_PASSWORD' => "Confirmar contraseña"
   , 'PASSWORD_NO_MATCH' => "Las contraseñas no coinciden"
   , 'PERMALINK' => "Estructura personalizada de enlaces"
-  , 'MORE' => "Saber más..."
+  , 'MORE' => "Más"
   , 'HELP' => "ayuda"
   , 'WEB_HEALTH_CHECK' => "Estado del sitio web"
   , 'VERSION' => " - Versión"
@@ -207,7 +206,7 @@ $i18n = array(
   , 'DOWNLOAD_ARCHIVES' => "Descargar archivo"
   , 'DELETE_ARCHIVE' => "Eliminar archivo"
   , 'TOTAL_ARCHIVES' => "archivo(s) en total"
-  , 'WELCOME' => "Bienvenido"
+  , 'WELCOME' => "Bienvenido/a"
   , 'TAB_PAGES' => "<em>P</em>áginas"
   , 'TAB_FILES' => "<em>A</em>rchivos"
   , 'TAB_THEME' => "<em>T</em>ema"
@@ -234,7 +233,7 @@ $i18n = array(
   , 'SIDE_VIEW_BAK' => "Ver backup de página"
   , 'SIDE_WEB_ARCHIVES' => "<em>A</em>rchivos del sitio web"
   , 'SIDE_PAGE_BAK' => "<em>B</em>ackups de páginas"
-  , 'ER_PWD_CHANGE' => "¡No olvides <a href=\"settings.php#profile\">cambiar tu contraseña</a> generada al azar ahora mismo!..."
+  , 'ER_PWD_CHANGE' => "Es recomendable <a href=\"settings.php#profile\">cambiar la contraseña</a> generada al azar por una nueva cuanto antes..."
   , 'ER_BAKUP_DELETED' => "Se ha eliminado el backup de <b>%s</b>"
   , 'ER_REQ_PROC_FAIL' => "El proceso solicitado no se ha ejecutado"
   , 'ER_YOUR_CHANGES' => "Se han guardado los cambios de <b>%s</b>"
@@ -250,7 +249,7 @@ $i18n = array(
   , 'ER_COMPONENT_SAVE' => "Se han guardado los componentes"
   , 'ER_COMPONENT_REST' => "Se han restaurado los componentes."
   , 'ER_CANCELLED_FAIL' => "<b>Cancelado:</b> La actualización de este archivo se ha cancelado."
-  , 'CANNOT_SAVE_EMPTY' => "No se puede guardar una página vacía"
+  , 'CANNOT_SAVE_EMPTY' => "No se puede guardar una página sin título / identificador"
   , 'META_DESC' => "Descripción (meta)"
   , 'FTYPE_COMPRESSED' => "Comprimido"
   , 'FTYPE_VECTOR' => "Vector"
@@ -263,12 +262,12 @@ $i18n = array(
   , 'FTYPE_MISC' => "Otros"
   , 'IMAGES' => "Imágenes"
   , 'FILL_IN_REQ_FIELD' => "Se han de rellenar todos los campos obligatorios"
-  , 'LOGIN_FAILED' => "Error. Por favor, revise su nombre de usuario y contraseña"
+  , 'LOGIN_FAILED' => "Error. Por favor, comprobar nombre de usuario y contraseña"
   , 'DATE_FORMAT' => "j M Y"
   , 'DATE_AND_TIME_FORMAT' => "j F Y, H:i"
-  , 'WELCOME_MSG' => "¡Gracias por escoger GetSimple como tu CMS!"
-  , 'WELCOME_P' => "GetSimple hace la gestión de su sitio web lo más simple posible, con la interfaz de usuario 'top-of-the-class' y el sistema de plantillas más sencillo."
-  , 'GETTING_STARTED' => "Primeros pasos"
+  , 'WELCOME_MSG' => "Gracias por elegir GetSimple como sistema de gestión de contenidos (CMS)."
+  , 'WELCOME_P' => "GetSimple consigue que la administración de sitios web sea lo más simple posible, con una interfaz de usuario de las mejores de su clase. Nos esforzamos en mantener un sistema lo suficientemente fácil de manejar para el usuario, pero lo bastante potente para que el desarrollador pueda habilitar todas las características que puedan necesitarse.</p><p><strong>Algunos primeros pasos que pueden ser útiles:</strong></p>"
+  , 'GETTING_STARTED' => "Introducción y puesta en marcha"
   , 'CURRENT_THUMBNAIL' => "Miniatura actual"
   , 'RECREATE' => "volver a crear"
   , 'CREATE_ONE' => "crear una"
@@ -276,7 +275,7 @@ $i18n = array(
   , 'ORIGINAL_IMG' => "Imagen original"
   , 'CLIPBOARD_INSTR' => "Seleccionar todo"
   , 'CREATE_THUMBNAIL' => "Crear miniatura"
-  , 'CROP_INSTR_NEW' => "<em>Ctrl-B</em> o <em>cmd-B</em> para cuadrado"
+  , 'CROP_INSTR_NEW' => "<em>Ctrl-B</em> o <em>cmd-B</em> para Bloque cuadrado"
   , 'SELECT_DIMENTIONS' => "Seleccionar dimensiones"
   , 'HTML_ORIG_IMG' => "Imagen original HTML"
   , 'LINK_ORIG_IMG' => "Imagen original URL"
@@ -289,15 +288,15 @@ $i18n = array(
   , 'PLUGIN_NAME' => "Nombre"
   , 'PLUGIN_DESC' => "Descripción"
   , 'PLUGIN_VER' => "Versión"
-  , 'ROOT_HTACCESS_ERROR' => "¡Error al crear .htaccess en el directorio raíz! Por favor copia <b>%s</b> a <b>.htaccess</b> y cambia <code>%s</code> por <code>%s</code>"
-  , 'REMOVE_TEMPCONFIG_ERROR' => "¡Error al eliminar <b>%s</b>! Por favor hazlo manualmente."
-  , 'MOVE_TEMPCONFIG_ERROR' => "¡Error al renombrar <b>%s</b> a <b>%s</b>! Por favor hazlo manualmente."
-  , 'KILL_CANT_CONTINUE' => "No se puede continuar. Por favor, corregir los errores y volver a intentarlo."
+  , 'ROOT_HTACCESS_ERROR' => "¡Error al crear .htaccess en el directorio raíz! Por favor copie <b>%s</b> a <b>.htaccess</b> y cambie <code>%s</code> por <code>%s</code>"
+  , 'REMOVE_TEMPCONFIG_ERROR' => "¡Error al eliminar <b>%s</b>! Por favor hágalo manualmente."
+  , 'MOVE_TEMPCONFIG_ERROR' => "¡Error al renombrar <b>%s</b> a <b>%s</b>! Por favor hágalo manualmente."
+  , 'KILL_CANT_CONTINUE' => "No se puede continuar. Por favor, corrija los errores y vuelva a intentarlo."
   , 'REFRESH' => "Refrescar"
   , 'BETA' => "Beta / Bleeding Edge"
   , 'HOMEPAGE_DELETE_ERROR' => "No se puede eliminar la página inicial"
   , 'NO_ZIPARCHIVE' => "La extensión ZipArchive no está instalada. No se puede continuar."
-  , 'REDIRECT_MSG' => "Si tu navegador no te redirecciona, haz click <a href=\"%s\">aquí</a>"
+  , 'REDIRECT_MSG' => "Si el navegador no le redirecciona, haga clic <a href=\"%s\">aquí</a>"
   , 'REDIRECT' => "Redirigir"
   , 'DENIED' => "Denegado"
   , 'DEBUG_MODE' => "Modo depuración"
@@ -320,13 +319,13 @@ $i18n = array(
   , 'SELECT_FILE' => "Seleccionar archivo"
   , 'CREATE_FOLDER' => "Crear carpeta"
   , 'THUMBNAIL' => "Miniatura"
-  , 'ERROR_FOLDER_EXISTS' => "La carpeta que estás intentado crear ya existe"
+  , 'ERROR_FOLDER_EXISTS' => "La carpeta que se está intentando crear ya existe"
   , 'FOLDER_CREATED' => "La nueva carpeta se ha creado correctamente: <strong>%s</strong>"
   , 'ERROR_CREATING_FOLDER' => "Se ha producido un error al crear la nueva carpeta"
   , 'DELETE_FOLDER' => "Eliminar carpeta"
   , 'FILE_NAME' => "Nombre de archivo"
   , 'FILE_SIZE' => "Tamaño"
-  , 'ARCHIVE_DATE' => "Fecha de archivo"
+  , 'ARCHIVE_DATE' => "Fecha del Archivo"
   , 'CKEDITOR_LANG' => "es"
   , 'XML_INVALID' => "XML no válido"
   , 'XML_VALID' => "XML válido"
