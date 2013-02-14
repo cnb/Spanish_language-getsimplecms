@@ -5,9 +5,9 @@
 * @Package:			GetSimple
 * @Subject:			Spanish (Spain) language file
 * @Date:				19 Feb 2011
-* @Revision:		10 Mar 2011
-* @Version:			GetSimple 3.1
-* @Translation Version:		1.4.2
+* @Revision:		14 Feb 2013
+* @Version:			GetSimple 3.2
+* @Translation Version:		1.5
 * @Status:			Final
 * @Traductors:	Isaac Robles García - David Casas Martín - José Blanco - Carlos Navarro
 *
@@ -15,11 +15,13 @@
 * Adaption translation into Spanish of Spain: David Casas Martín
 * Extending translation for GetSimple 3.0: Jose Blanco
 * Several changes and extending translation for GetSimple 3.1: Carlos Navarro
+* Extended translation for GetSimple 3.2: Carlos Navarro
 *
 * Traducción original (GS2)(Español-Méjico): Isaac Robles García
 * Adpatación traduccion al Español de España: David Casas Martín
 * Ampliación para GetSimple 3.0: José Blanco
 * Cambios varios y ampliación para GetSimple 3.1: Carlos Navarro
+* Ampliación para GetSimple 3.2: Carlos Navarro
 *
 ****************************************************/
 $i18n = array(
@@ -41,7 +43,7 @@ $i18n = array(
   , 'NOTE_REGERROR' => "<b>Error:</b> Error al enviar la información de registro por email. Tomar nota de la contraseña (abajo)"
   , 'NOTE_USERNAME' => "El nombre de usuario es"
   , 'NOTE_PASSWORD' => "y la contraseña es"
-  , 'INSTALLATION' => "Instalación"
+  , 'INSTALLATION' => " - Instalación"
   , 'LABEL_WEBSITE' => "Nombre del sitio web"
   , 'LABEL_BASEURL' => "URL del sitio"
   , 'LABEL_SUGGESTION' => "Se sugiere"
@@ -158,7 +160,7 @@ $i18n = array(
   , 'WEBSITE_SETTINGS' => "Configuración del sitio web"
   , 'LOCAL_TIMEZONE' => "Uso horario local"
   , 'LANGUAGE' => "Idioma"
-  , 'USE_FANCY_URLS' => "<b>Usar URLs amigables</b> - <b style=\"font-weight:100\">Requiere soporte <code>mod_rewrite</code> activado en su servidor</b>"
+  , 'USE_FANCY_URLS' => "<b>Usar URLs amigables</b> - <b style=\"font-weight:100\">Requiere soporte <code>mod_rewrite</code> activado en el servidor</b>"
   , 'ENABLE_HTML_ED' => "<b>Habilitar editor HTML</b>"
   , 'WARN_EMAILINVALID' => "Advertencia: La dirección de correo no es válida!"
   , 'ONLY_NEW_PASSWORD' => "Introducir contraseña abajo sólo si se desea cambiar la actual"
@@ -170,8 +172,8 @@ $i18n = array(
   , 'HELP' => "ayuda"
   , 'WEB_HEALTH_CHECK' => "Estado del sitio web"
   , 'VERSION' => " - Versión"
-  , 'UPG_NEEDED' => "necesita actualizarse a"
-  , 'CANNOT_CHECK' => "No se puede comprobar. Su versión es"
+  , 'UPG_NEEDED' => "Se recomienda actualizar"
+  , 'CANNOT_CHECK' => "Comprobación no realizada."
   , 'LATEST_VERSION' => "última versión instalada"
   , 'SERVER_SETUP' => "Configuración del servidor"
   , 'OR_GREATER_REQ' => "o superior es requerido"
@@ -249,7 +251,7 @@ $i18n = array(
   , 'ER_COMPONENT_SAVE' => "Se han guardado los componentes"
   , 'ER_COMPONENT_REST' => "Se han restaurado los componentes."
   , 'ER_CANCELLED_FAIL' => "<b>Cancelado:</b> La actualización de este archivo se ha cancelado."
-  , 'CANNOT_SAVE_EMPTY' => "No se puede guardar una página sin título / identificador"
+  , 'CANNOT_SAVE_EMPTY' => "No se puede guardar una página sin título"
   , 'META_DESC' => "Descripción (meta)"
   , 'FTYPE_COMPRESSED' => "Comprimido"
   , 'FTYPE_VECTOR' => "Vector"
@@ -303,7 +305,7 @@ $i18n = array(
   , 'DOUBLE_CLICK_EDIT' => "Doble clic para editar"
   , 'THUMB_SAVED' => "Miniatura guardada"
   , 'EDIT_COMPONENTS' => "Editar componentes"
-  , 'REQS_MORE_INFO' => "Para obtener más información sobre los módulos necesarios, visite la <a href=\"%s\" target=\"_blank\">página de requisitos</a>
+  , 'REQS_MORE_INFO' => "Para obtener más información sobre los módulos necesarios, ver la <a href=\"%s\" target=\"_blank\">página de requisitos</a>
 ."
   , 'SYSTEM_UPDATE' => "Actualización del sistema"
   , 'AUTHOR' => "Autor"
@@ -363,4 +365,8 @@ $i18n = array(
   , 'API_CONFIRM' => "¿ESTÁ SEGURO?"
   , 'X' => "sin traducción"
   , 'DEBUG_CONSOLE' => "Consola de depuración"
+  , 'FLUSHCACHE' =>  "Limpiar caché"
+  , 'FLUSHCACHE-SUCCESS' => "Se ha limpiado la caché"
+  , 'LABEL_DISPNAME' => "Nombre a mostrar"
+  , 'DISPLAY_NAME' =>  "Visible públicamente, distinto al nombre de usuario"
 );
