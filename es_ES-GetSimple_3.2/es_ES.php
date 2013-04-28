@@ -7,7 +7,7 @@
 * @Date:				19 Feb 2011
 * @Revision:		28 Apr 2013
 * @Version:			GetSimple 3.2
-* @Translation Version:		1.5.1 beta
+* @Translation Version:		1.5.1
 * @Status:			Final
 * @Traductors:	Isaac Robles García - David Casas Martín - José Blanco - Carlos Navarro
 *
