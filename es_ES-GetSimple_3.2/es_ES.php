@@ -5,9 +5,9 @@
 * @Package:			GetSimple
 * @Subject:			Spanish (Spain) language file
 * @Date:				19 Feb 2011
-* @Revision:		14 Feb 2013
+* @Revision:		28 Apr 2013
 * @Version:			GetSimple 3.2
-* @Translation Version:		1.5
+* @Translation Version:		1.5.1 beta
 * @Status:			Final
 * @Traductors:	Isaac Robles García - David Casas Martín - José Blanco - Carlos Navarro
 *
@@ -141,10 +141,10 @@ $i18n = array(
   , 'DELETE_COMPONENT' => "Eliminar componente"
   , 'ADD_COMPONENT' => "<em>A</em>ñadir componente"
   , 'SAVE_COMPONENTS' => "Guardar componentes"
-  , 'SITEMAP_CREATED' => "¡Mapa del sitio creado! Además, hemos enviado la actualización a 4 buscadores."
-  , 'SITEMAP_ERRORPING' => "Mapa del sitio creado, pero no hemos podido contactar con uno o más buscadores para actualizar la información"
-  , 'SITEMAP_ERROR' => "No se puede generar el mapa del sitio."
-  , 'SITEMAP_WAIT' => "<b>Espere, por favor:</b> Creando mapa del sitio"
+  , 'SITEMAP_CREATED' => "Se ha creado el Sitemap. Además, se ha enviado la actualización a 4 buscadores."
+  , 'SITEMAP_ERRORPING' => "Se ha creado el Sitemap, pero no se ha podido contactar con uno o más buscadores para actualizar la información"
+  , 'SITEMAP_ERROR' => "No se puede generar el Sitemap."
+  , 'SITEMAP_WAIT' => "<b>Espere, por favor:</b> Creando Sitemap"
   , 'THEME_CHANGED' => "Se ha cambiado el tema satisfactoriamente"
   , 'CHOOSE_THEME' => "Seleccionar tema"
   , 'ACTIVATE_THEME' => "Activar tema"
@@ -223,8 +223,8 @@ $i18n = array(
   , 'SIDE_HEALTH_CHK' => "<em>E</em>stado del sitio web"
   , 'SIDE_DOCUMENTATION' => "Documentación"
   , 'SIDE_VIEW_LOG' => "<em>V</em>er registros"
-  , 'SIDE_VIEW_SITEMAP' => "<em>V</em>er Mapa del sitio"
-  , 'SIDE_GEN_SITEMAP' => "Generar el <em>M</em>apa del sitio"
+  , 'SIDE_VIEW_SITEMAP' => "<em>V</em>er Sitemap"
+  , 'SIDE_GEN_SITEMAP' => "Generar Site<em>M</em>ap"
   , 'SIDE_COMPONENTS' => "<em>E</em>ditar componentes"
   , 'SIDE_EDIT_THEME' => "E<em>d</em>itar tema"
   , 'SIDE_CHOOSE_THEME' => "Selección de <em>t</em>ema"
@@ -340,7 +340,7 @@ $i18n = array(
   , 'AUTOSAVE_NOTIFY' => "Página guardada automáticamente a las"
   , 'MENU_MANAGER' => "Administrar <em>M</em>enú"
   , 'GET_PLUGINS_LINK' => "Descargar <em>m</em>ás plugins"
-  , 'SITEMAP_REFRESHED' => "Se ha actualizado el mapa del sitio"
+  , 'SITEMAP_REFRESHED' => "Se ha actualizado el Sitemap"
   , 'LOG_FILE_EMPTY' => "El archivo de registro está vacío"
   , 'SHARE' => "Compartir"
   , 'NO_PARENT' => "Sin superior"
