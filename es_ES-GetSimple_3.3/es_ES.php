@@ -6,8 +6,8 @@
 * @Subject:			Spanish (Spain) language file
 * @Date:				19 Feb 2011
 * @Revision:		26 Jan 2014
-* @Version:			GetSimple 3.2
-* @Translation Version:		1.6
+* @Version:			GetSimple 3.3
+* @Translation Version:		1.6.0
 * @Status:			Final
 * @Traductors:	Isaac Robles García - David Casas Martín - José Blanco - Carlos Navarro
 *
@@ -53,8 +53,8 @@ $i18n = array(
   , 'SELECT_LANGUAGE' => "Seleccionar idioma"
   , 'CONTINUE_SETUP' => "Continuar con la instalación"
   , 'DOWNLOAD_LANG' => "Descargar idiomas adicionales"
-  , 'SITE_UPDATED' => "Se ha actualizado el sitio",
-  , 'SERVICE_UNAVAILABLE' => "Página temporalmente no disponible",
+  , 'SITE_UPDATED' => "Se ha actualizado el sitio"
+  , 'SERVICE_UNAVAILABLE' => "Página temporalmente no disponible"
   , 'MENUITEM_SUBTITLE' => "Elemento de menú"
   , 'HOMEPAGE_SUBTITLE' => "Página inicial"
   , 'PRIVATE_SUBTITLE' => "privada"
