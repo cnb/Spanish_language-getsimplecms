@@ -5,9 +5,9 @@
 * @Package:			GetSimple
 * @Subject:			Spanish (Spain) language file
 * @Date:				19 Feb 2011
-* @Revision:		28 Apr 2013
+* @Revision:		26 Jan 2014
 * @Version:			GetSimple 3.2
-* @Translation Version:		1.5.1
+* @Translation Version:		1.6
 * @Status:			Final
 * @Traductors:	Isaac Robles García - David Casas Martín - José Blanco - Carlos Navarro
 *
@@ -15,13 +15,13 @@
 * Adaption translation into Spanish of Spain: David Casas Martín
 * Extending translation for GetSimple 3.0: Jose Blanco
 * Several changes and extending translation for GetSimple 3.1: Carlos Navarro
-* Extended translation for GetSimple 3.2: Carlos Navarro
+* Extended translation for GetSimple 3.2, 3.3: Carlos Navarro
 *
 * Traducción original (GS2)(Español-Méjico): Isaac Robles García
 * Adpatación traduccion al Español de España: David Casas Martín
 * Ampliación para GetSimple 3.0: José Blanco
 * Cambios varios y ampliación para GetSimple 3.1: Carlos Navarro
-* Ampliación para GetSimple 3.2: Carlos Navarro
+* Ampliación para GetSimple 3.2, 3.3: Carlos Navarro
 *
 ****************************************************/
 $i18n = array(
@@ -53,6 +53,8 @@ $i18n = array(
   , 'SELECT_LANGUAGE' => "Seleccionar idioma"
   , 'CONTINUE_SETUP' => "Continuar con la instalación"
   , 'DOWNLOAD_LANG' => "Descargar idiomas adicionales"
+  , 'SITE_UPDATED' => "Se ha actualizado el sitio",
+  , 'SERVICE_UNAVAILABLE' => "Página temporalmente no disponible",
   , 'MENUITEM_SUBTITLE' => "Elemento de menú"
   , 'HOMEPAGE_SUBTITLE' => "Página inicial"
   , 'PRIVATE_SUBTITLE' => "privada"
@@ -292,6 +294,7 @@ $i18n = array(
   , 'PLUGIN_NAME' => "Nombre"
   , 'PLUGIN_DESC' => "Descripción"
   , 'PLUGIN_VER' => "Versión"
+  , "PLUGIN_UPDATED"    => "Plugin actualizado"
   , 'ROOT_HTACCESS_ERROR' => "¡Error al crear .htaccess en el directorio raíz! Por favor copie <b>%s</b> a <b>.htaccess</b> y cambie <code>%s</code> por <code>%s</code>"
   , 'REMOVE_TEMPCONFIG_ERROR' => "¡Error al eliminar <b>%s</b>! Por favor hágalo manualmente."
   , 'MOVE_TEMPCONFIG_ERROR' => "¡Error al renombrar <b>%s</b> a <b>%s</b>! Por favor hágalo manualmente."
@@ -307,8 +310,7 @@ $i18n = array(
   , 'DOUBLE_CLICK_EDIT' => "Doble clic para editar"
   , 'THUMB_SAVED' => "Miniatura guardada"
   , 'EDIT_COMPONENTS' => "Editar componentes"
-  , 'REQS_MORE_INFO' => "Para obtener más información sobre los módulos necesarios, ver la <a href=\"%s\" target=\"_blank\">página de requisitos</a>
-."
+  , 'REQS_MORE_INFO' => "Para obtener más información sobre los módulos necesarios, ver la <a href=\"%s\" target=\"_blank\">página de requisitos</a>."
   , 'SYSTEM_UPDATE' => "Actualización del sistema"
   , 'AUTHOR' => "Autor"
   , 'ENABLE' => "Activar"
