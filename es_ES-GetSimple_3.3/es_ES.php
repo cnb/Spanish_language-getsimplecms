@@ -7,7 +7,7 @@
 * @Date:				19 Feb 2011
 * @Revision:		26 Jan 2014
 * @Version:			GetSimple 3.3
-* @Translation Version:		1.6.0
+* @Translation Version:		1.6.1
 * @Status:			Final
 * @Traductors:	Isaac Robles García - David Casas Martín - José Blanco - Carlos Navarro
 *
@@ -45,7 +45,7 @@ $i18n = array(
   , 'NOTE_PASSWORD' => "y la contraseña es"
   , 'INSTALLATION' => " - Instalación"
   , 'LABEL_WEBSITE' => "Nombre del sitio web"
-  , 'LABEL_BASEURL' => "URL del sitio"
+  , 'LABEL_BASEURL' => "URL del sitio web"
   , 'LABEL_SUGGESTION' => "Se sugiere"
   , 'LABEL_USERNAME' => "Nombre de usuario"
   , 'LABEL_EMAIL' => "Correo electrónico"
@@ -253,7 +253,7 @@ $i18n = array(
   , 'ER_PROBLEM_DEL' => "Ha habido un problema al eliminar el archivo."
   , 'ER_COMPONENT_SAVE' => "Se han guardado los componentes"
   , 'ER_COMPONENT_REST' => "Se han restaurado los componentes."
-  , 'ER_CANCELLED_FAIL' => "<b>Cancelado:</b> La actualización de este archivo se ha cancelado."
+  , 'ER_CANCELLED_FAIL' => "<b>Cancelado:</b> La actualización ha sido cancelada."
   , 'CANNOT_SAVE_EMPTY' => "No se puede guardar una página sin título"
   , 'META_DESC' => "Descripción (meta)"
   , 'FTYPE_COMPRESSED' => "Comprimido"
@@ -316,7 +316,7 @@ $i18n = array(
   , 'ENABLE' => "Activar"
   , 'DISABLE' => "Desactivar"
   , 'NO_THEME_SCREENSHOT' => "La previsualización del tema no está disponible"
-  , 'UNSAVED_INFORMATION' => "Estás a punto de salir de esta página y perderás cualquier información no guardada."
+  , 'UNSAVED_INFORMATION' => "Está a punto de salir de esta página; se perderá cualquier información no guardada."
   , 'BACK_TO_WEBSITE' => "Volver al sitio web"
   , 'SUPPORT_FORUM' => "Foro de soporte"
   , 'FILTER' => "Filt<em>r</em>o"
