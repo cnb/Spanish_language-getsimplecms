@@ -5,7 +5,7 @@
 * @Package:			GetSimple
 * @Subject:			Spanish (Spain) language file
 * @Date:				19 Feb 2011
-* @Revision:		260 Dec 2017
+* @Revision:		20 Dec 2017
 * @Version:			GetSimple 3.3
 * @Translation Version:		1.6.2
 * @Status:			Final
