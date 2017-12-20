@@ -5,9 +5,9 @@
 * @Package:			GetSimple
 * @Subject:			Spanish (Spain) language file
 * @Date:				19 Feb 2011
-* @Revision:		26 Jan 2014
+* @Revision:		260 Dec 2017
 * @Version:			GetSimple 3.3
-* @Translation Version:		1.6.1
+* @Translation Version:		1.6.2
 * @Status:			Final
 * @Traductors:	Isaac Robles García - David Casas Martín - José Blanco - Carlos Navarro
 *
@@ -27,7 +27,7 @@
 $i18n = array(
     'PHPVER_ERROR' => "<b>No se puede continuar:</b> Se requiere PHP 5.1.3 o superior "
   , 'SIMPLEXML_ERROR' => "<b>No se puede continuar:</b> <em>SimpleXML</em> no está instalado"
-  , 'CURL_WARNING' => "<b>Advertencia:</b> <em>cURL</em> No está instalado"
+  , 'CURL_WARNING' => "<b>Advertencia:</b> <em>cURL</em> no está instalado"
   , 'TZ_WARNING' => "<b>Advertencia:</b> <em>date_default_timezone_set</em> no encontrada"
   , 'WEBSITENAME_ERROR' => "<b>Error:</b> Hay un error con el título del sitio web"
   , 'WEBSITEURL_ERROR' => "<b>Error:</b> Hay un error con la dirección del sitio web"
@@ -80,7 +80,7 @@ $i18n = array(
   , 'TAG_KEYWORDS' => "Etiquetas o palabras clave"
   , 'PARENT_PAGE' => "Página superior"
   , 'TEMPLATE' => "Plantilla"
-  , 'KEEP_PRIVATE' => "¿Página privada?"
+  , 'KEEP_PRIVATE' => "Visibilidad de la página"
   , 'ADD_TO_MENU' => "Mostrar en menú"
   , 'PRIORITY' => "Prioridad"
   , 'MENU_TEXT' => "Texto del menú"
@@ -161,11 +161,11 @@ $i18n = array(
   , 'SEND_NEW_PWD' => "Enviar contraseña nueva"
   , 'GENERAL_SETTINGS' => "Configuración general"
   , 'WEBSITE_SETTINGS' => "Configuración del sitio web"
-  , 'LOCAL_TIMEZONE' => "Uso horario local"
+  , 'LOCAL_TIMEZONE' => "Huso horario local"
   , 'LANGUAGE' => "Idioma"
   , 'USE_FANCY_URLS' => "<b>Usar URLs amigables</b> - <b style=\"font-weight:100\">Requiere soporte <code>mod_rewrite</code> activado en el servidor</b>"
   , 'ENABLE_HTML_ED' => "<b>Habilitar editor HTML</b>"
-  , 'WARN_EMAILINVALID' => "Advertencia: La dirección de correo no es válida!"
+  , 'WARN_EMAILINVALID' => "Advertencia: La dirección de correo no es válida"
   , 'ONLY_NEW_PASSWORD' => "Introducir contraseña abajo sólo si se desea cambiar la actual"
   , 'NEW_PASSWORD' => "Nueva contraseña"
   , 'CONFIRM_PASSWORD' => "Confirmar contraseña"
@@ -282,11 +282,11 @@ $i18n = array(
   , 'CREATE_THUMBNAIL' => "Crear miniatura"
   , 'CROP_INSTR_NEW' => "<em>Ctrl-B</em> o <em>cmd-B</em> para Bloque cuadrado"
   , 'SELECT_DIMENTIONS' => "Seleccionar dimensiones"
-  , 'HTML_ORIG_IMG' => "Imagen original HTML"
-  , 'LINK_ORIG_IMG' => "Imagen original URL"
-  , 'HTML_THUMBNAIL' => "Miniatura HTML"
-  , 'LINK_THUMBNAIL' => "Miniatura URL"
-  , 'HTML_THUMB_ORIG' => "Miniatura e Imagen HTML"
+  , 'HTML_ORIG_IMG' => "Código HTML para imagen original"
+  , 'LINK_ORIG_IMG' => "URL de imagen original"
+  , 'HTML_THUMBNAIL' => "Código HTML para miniatura"
+  , 'LINK_THUMBNAIL' => "URL de la miniatura"
+  , 'HTML_THUMB_ORIG' => "Código HTML para miniatura e imagen original"
   , 'PLUGINS_MANAGEMENT' => "Administración de plugins"
   , 'PLUGINS_INSTALLED' => "plugins instalados"
   , 'PLUGIN_DISABLED' => "Plugin desactivado"
